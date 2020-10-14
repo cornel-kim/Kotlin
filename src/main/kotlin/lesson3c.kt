@@ -1,9 +1,15 @@
 //nested if else statement
+import java.util.Scanner
 fun main(){
-    val temp:Float = 37.5F
+    val scanner = Scanner(System.`in`)
+    println("Enter your temperature")
+    val temp = scanner.nextFloat()
     if (temp> 37.2){
-        println("Might have corona")
-        val cough:String = "Coughing"
+//        println("Might have corona")
+
+        val scanner1 = Scanner(System.`in`)
+        println("Enter your signs")
+        val cough:String = scanner1.nextLine()
         if (cough == "$cough"){
             println("One sign of corona")
             val testLose:String = "lOST"
