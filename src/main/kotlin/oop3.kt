@@ -27,4 +27,5 @@ fun main(args: Array<String>) {
     arithmetic_object.add()
     arithmetic_object.substract()
     arithmetic_object.product()
+    arithmetic_object.division()
 }// END MAIN
